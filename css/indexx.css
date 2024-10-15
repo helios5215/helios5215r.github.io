@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    color: aqua;
+}
+body{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    position: fixed;
+    height: 80px;
+    overflow: hidden;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background: white;
+    width: 100%;
+}
+.logo{
+    background: url(../img/re.jpg) no-repeat 80% 80%;
+    background-size: contain;
+    width: 180px;
+    height: 55px;
+    float: left;
+}
+.menu{
+    position: absolute;
+    right: 50px;
+}
+.menu a{
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+    margin-left: 30px;
+    transition: 1s;
+}
+.menu a:hover{
+    color: wheat;
+}
+header{
+    width: 120%;
+    height: 700px;
+    background: url(../img/fondo.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+p{
+    color: #E5E5E5;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 300;
+    padding: 20px;
+    font-size: 20px;
+    text-align: justify;
+    margin: 15px 25px;
+}
+h2{
+    font-family: "Bebas Neue", sans-serif;
+    margin: 15px 25px;
+    text-transform: uppercase;
+    color: white;
+}
+.imgc{
+    display: block;
+    margin: 0 auto;
+}
+.contactos-container {
+  display: flex;
+  gap: 20px;
+  background-color: black;
+  padding: 20px;
+  box-shadow: 0 4px 8px #E5E5E5;
+  border-radius: 10px;
+    margin-bottom: 15px;
+}
+.contacto-item {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px #E5E5E5;
+  border-radius: 10px;
+  text-align: center;
+  background-color: black;
+}
+
+.contacto-item h3 {
+    color: white;
+  margin-bottom: 10px;
+    font-family: "Pacifico", cursive;
+    font-size: 30px;
+}
+
+.contacto-item p {
+    text-align: center;
+    color:white;
+  margin: 5px 0;
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+  
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+    border-top: 1px solid white;
+}
+.social-icons img {
+  width: 30px;
+  height: auto;
+  margin: 0 10px;
+}
